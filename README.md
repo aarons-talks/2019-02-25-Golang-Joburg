@@ -49,10 +49,34 @@ $ ./hugo version
 
 ## Where to Go from Here
 
-You can use Athens for any project that uses Go modules. Just set GOPROXY to https://microsoftgoproxy.azurewebsites.net in your environment.
+You can use Athens for any project that uses Go modules. Just set GOPROXY to https://athens.azurefd.net in your environment.
 
 But remember, that URL is an experimental Athens server for now. _I recommand that you don't rely on it for production code yet_.
 
-We'll announce a URL more stable soon. Meanwhile, if you want to run your _own_ Athens or learn more, check out https://docs.gomods.io!
+### Another Adventure... Run Your Own Athens!
 
-Keep on rockin', Gophers!
+If you'd rather not rely on the public Athens (it _is_ experimental after all!), then run your own!
+
+The easiest way to do that - and the way I recommend - is using Docker. Run this to start up Athens:
+
+```console
+$ docker run -p 3000:3000 gomods/athens:v0.2.0
+```
+
+And then to set your environment variable to point to the local server:
+
+```console
+$ export GOPROXY=localhost:3000
+```
+
+From here, go back and clear your cache and build Hugo again. Magic!!!
+
+### Finally
+
+If you want to learn more, check out https://docs.gomods.io! **And** we'd love for you to get involved! Here are some ways to do so:
+
+- Come star our repo and get involved: github.com/gomods/athens 
+- Come say hi on the `#athens` channel in the [Gophers Slack](https://invite.slack.golangbridge.org/)
+- Come to one of our [developer meetings](https://docs.gomods.io/contributing/community/developer-meetings/). Absolutely everybody is welcome, regardless of experience, background or anything else.
+
+# Keep on rockin', Gophers!

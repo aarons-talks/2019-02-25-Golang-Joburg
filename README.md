@@ -1,6 +1,6 @@
 # Building [Hugo](https://gohugo.io) with Go Modules and Athens :tada:
 
-Hey Gophers! We're gonna build [Hugo](https://gohugo.io) with [Go Modules](https://github.com/golang/go/wiki/Modules) and [Athens](https://docs.gomods.io). I gave this demo at my Golang Joburg talk about Go Modules and Athens.
+Hey Gophers! We're gonna build [Hugo](https://gohugo.io) with [Go Modules](https://github.com/golang/go/wiki/Modules) and [Athens](https://docs.gomods.io). I gave this demo at my [Golang Joburg talk](https://www.meetup.com/Joburg-Golang-Group/events/259086707/) about Go Modules and Athens.
 
 # Run The Demo
 

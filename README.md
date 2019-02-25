@@ -66,7 +66,7 @@ $ docker run -p 3000:3000 gomods/athens:v0.2.0
 And then to set your environment variable to point to the local server:
 
 ```console
-$ export GOPROXY=localhost:3000
+$ export GOPROXY=http://localhost:3000
 ```
 
 From here, go back and clear your cache and build Hugo again. Magic!!!
